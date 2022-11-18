@@ -21,7 +21,7 @@ namespace GenerateCodeProject.Controllers
         }
 
         [Authorize]
-        [HttpPost("GetAllCode")]
+        [HttpGet("GetAllCode")]
         public async Task<IActionResult> GetAllCode()
         {
             var result = _codeService.GetAllCode();
@@ -29,7 +29,7 @@ namespace GenerateCodeProject.Controllers
         }
 
         [Authorize]
-        [HttpPost("{code}")]
+        [HttpPost("CheckCode/{code}")]
         public async Task<IActionResult> CheckCode([FromBody]String code)
         {
             bool result = _codeService.CheckCode(code);
