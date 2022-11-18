@@ -1,6 +1,6 @@
 GENERATECODE
 
-Bu projede 2 controller sınıfı oluşturudu aşağıda resimde görüldüğü gibidir.
+Bu projede 2 controller sınıfı oluşturuldu aşağıda resimde görüldüğü gibidir.
 ![image](https://user-images.githubusercontent.com/53389814/202745988-700fca07-bd3e-4e38-8d5e-7fe9265869ef.png)
 User kontrolü veritabanı ile yapılmaktadır.
 User başarılı bir şekilde login olursa token üretiliyor diğer işlemlerde bu token kullanılıyor. Ve bu şekilde yetki kontrolü yapılmış oldu.
@@ -42,7 +42,7 @@ karakter kümemiz: ACDEFGHKLMNPRTXYZ234579
 
 Burada verilen numaralar karakter kümemizdeki indis numaralarına karşılık gelen numaralardır.
 
-Postman Collection ekte paylaşılmıştır. Test edilmek istenirse kullanılabilir.
+Postman Collection dosyalarda paylaşılmıştır. Test edilmek istenirse kullanılabilir.
 
 ![image](https://user-images.githubusercontent.com/53389814/202751777-b791917d-61c0-4875-9e27-6a4fba916fa8.png)
 
